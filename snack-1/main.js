@@ -63,7 +63,8 @@ var zucchiniTotalWeight = 0;
 
 
 for (var i = 0; i < zucchini.length; i++) {
-    console.log('varietà: ' + zucchini[i]['peso']);
+    // console.log('varietà: ' + zucchini[i] + zucchini[i]['peso']);
+    console.log( `varietà: ${zucchini[i]['varietà']} => peso: ${zucchini[i]['peso']} `)
     zucchiniTotalWeight += zucchini[i]['peso'];
 }
 
